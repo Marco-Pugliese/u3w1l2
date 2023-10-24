@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function MyNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar fixed="top" expand="lg" className="bg-success">
       <Container className="border-bottom py-2">
         <Navbar.Brand href="#">Epi-Book</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
