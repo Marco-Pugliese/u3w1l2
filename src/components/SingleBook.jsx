@@ -9,7 +9,7 @@ class SingleBook extends Component {
   };
   render() {
     return (
-      <Col className=" col-2 d-flex align-items-between">
+      <Col className=" col-6 col-sm-4 col-md-3 col-xl-2 d-flex align-items-between">
         <Card
           className={
             this.state.checked

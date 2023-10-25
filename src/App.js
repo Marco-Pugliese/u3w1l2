@@ -6,7 +6,8 @@ import MyFooter from "./components/MyFooter";
 import MyButtons from "./components/MyButtons";
 import { Container, Row } from "react-bootstrap";
 import BookList from "./components/BookList";
-import history from "./books/history.json";
+// import history from "./books/history.json";
+import fantasy from "./books/fantasy.json";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <MyButtons />
       <Container fluid>
         <Row className="gx-3 pt-3 bg-light">
-          <BookList books={history} />
+          <BookList books={fantasy} />
         </Row>
       </Container>
 
